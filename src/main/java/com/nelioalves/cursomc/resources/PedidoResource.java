@@ -22,6 +22,4 @@ public class PedidoResource {
 		Pedido obj =service.buscar(id);
 		return ResponseEntity.ok().body(obj);		
 	}
-	
-
 }
